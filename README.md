@@ -1,4 +1,8 @@
+# TestRevise 🔁
+
 [![CI](https://github.com/wookay/TestRevise.jl/actions/workflows/actions.yml/badge.svg)](https://github.com/wookay/TestRevise.jl/actions/workflows/actions.yml)
+
+- Revise.jl  https://github.com/timholy/Revise.jl
 
 ```
 julia> using Revise
