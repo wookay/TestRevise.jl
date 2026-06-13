@@ -13,8 +13,10 @@ Base.isType
 Base.type_parameter
 
 @test Revise.is_typeeq(typlike)
+@test Revise.typeeq_parameter(typlike) === Vector
 else
 @test Revise.is_typeeq(typlike) === false
+@test_throws FieldError Revise.typeeq_parameter(typlike)
 end # if
 
 end # module test_revise_visit
