@@ -22,7 +22,7 @@ end
 """)
 end
 
-const mtimedelay = 0.1
+const mtimedelay = 0.01
 sleep(mtimedelay)
 
 Revise.revise()
